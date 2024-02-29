@@ -1,0 +1,121 @@
+.frameChild {
+  margin: 0 !important;
+  right: 0;
+  bottom: 0;
+  background-color: var(--color-gray-300);
+  border: 1px solid var(--gray-color);
+  box-sizing: border-box;
+}
+.frameChild,
+.frameInner,
+.frameItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+  width: 100%;
+  height: 100%;
+}
+.frameItem {
+  object-fit: cover;
+  display: none;
+  z-index: 1;
+}
+.frameInner {
+  background: linear-gradient(
+    115.89deg,
+    rgba(193, 222, 232, 0.7) 9.15%,
+    rgba(255, 255, 255, 0) 52.17%,
+    rgba(251, 217, 185, 0.7) 98.84%
+  );
+  z-index: 2;
+}
+.rectangleGroup {
+  align-self: stretch;
+  height: 263px;
+  position: relative;
+  border-radius: var(--br-sm);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  z-index: 1;
+}
+.sobhaHearlandIi {
+  position: relative;
+  font-size: var(--font-size-2xl);
+  line-height: 120%;
+  font-weight: 600;
+  z-index: 1;
+}
+.loremIpsumDolor {
+  width: 329px;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  z-index: 1;
+}
+.starinactivebigIcon,
+.starinactivebigIcon1,
+.starinactivebigIcon2,
+.starinactivebigIcon3,
+.starinactivebigIcon4 {
+  height: 17.3px;
+  width: 16.6px;
+  position: relative;
+}
+.stars {
+  height: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+  z-index: 1;
+}
+.div {
+  position: relative;
+  line-height: 120%;
+  z-index: 1;
+}
+.starsParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs) 0 0;
+  gap: 0 13px;
+}
+.frameWrapper,
+.rectangleParent,
+.sobhaHearlandIiVillasParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.sobhaHearlandIiVillasParent {
+  flex-direction: column;
+  gap: 17px 0;
+}
+.frameWrapper,
+.rectangleParent {
+  flex-direction: row;
+  padding: 0 var(--padding-5xl);
+  box-sizing: border-box;
+}
+.rectangleParent {
+  flex-direction: column;
+  padding: 0 0 var(--padding-6xl);
+  position: relative;
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--font-size);
+  color: var(--color-black);
+  font-family: var(--font);
+}
+@media screen and (max-width: 450px) {
+  .sobhaHearlandIi {
+    font-size: var(--font-size-mid);
+    line-height: 20px;
+  }
+}

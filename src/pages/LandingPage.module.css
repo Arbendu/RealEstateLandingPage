@@ -1,0 +1,37 @@
+.aboutUsFrame,
+.landingPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.aboutUsFrame {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: 32px 0;
+  max-width: 100%;
+}
+.landingPage {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  align-items: center;
+  padding: var(--padding-15xl) 29px 110px var(--padding-11xl);
+  gap: 108px 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .aboutUsFrame {
+    gap: 32px 0;
+  }
+  .landingPage {
+    gap: 108px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .landingPage {
+    gap: 108px 0;
+  }
+}

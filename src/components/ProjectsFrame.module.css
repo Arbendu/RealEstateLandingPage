@@ -1,0 +1,267 @@
+.projectsFrameChild {
+  height: 90px;
+  width: 1380px;
+  position: relative;
+  border-radius: var(--br-51xl);
+  background-color: var(--gray-2);
+  display: none;
+  max-width: 100%;
+}
+.frameChild {
+  position: absolute;
+  top: 11.5px;
+  left: 0;
+  border-radius: var(--br-11xs);
+  background-color: var(--color-gray-200);
+  width: 20px;
+  height: 20px;
+}
+.frameItem {
+  position: absolute;
+  top: 15.5px;
+  left: 5px;
+  background-color: var(--color-white);
+  width: 6px;
+  height: 9px;
+  z-index: 1;
+}
+.frameInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xl);
+  width: 20px;
+  height: 15px;
+}
+.rectangleParent {
+  height: 27.5px;
+  width: 16px;
+  position: relative;
+}
+.buildIcon {
+  margin-bottom: -1px;
+  align-self: stretch;
+  height: 25px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameAboutUsProjects {
+  height: 16px;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.agentsFrame,
+.frameAboutUsProjects,
+.logo {
+  display: flex;
+  justify-content: flex-start;
+}
+.logo {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 0 10px;
+  z-index: 1;
+}
+.agentsFrame {
+  width: 94px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-3xs) var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.frameglobalPresenceChild {
+  height: 60px;
+  width: 571px;
+  position: relative;
+  border-radius: var(--br-21xl);
+  background-color: var(--white);
+  display: none;
+  max-width: 100%;
+}
+.aboutUs {
+  white-space: nowrap;
+}
+.aboutUs,
+.agents,
+.listings,
+.projects,
+.services {
+  text-decoration: none;
+  position: relative;
+  line-height: 120%;
+  color: inherit;
+  cursor: pointer;
+  z-index: 2;
+}
+.vuesaxlinearsearchNormalIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  z-index: 2;
+}
+.frameglobalPresence,
+.starGroup {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameglobalPresence {
+  align-self: stretch;
+  border-radius: var(--br-21xl);
+  background-color: var(--white);
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-lg) var(--padding-15xl) var(--padding-lg)
+    var(--padding-3xl);
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.starGroup {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.otherServices {
+  text-decoration: none;
+  position: relative;
+  line-height: 120%;
+  color: inherit;
+  cursor: pointer;
+  white-space: nowrap;
+  z-index: 1;
+}
+.loremipsumdrenderingisometricf {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.vuesaxlineararrowRightIcon {
+  width: 18px;
+  height: 18px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.arrowFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-9xs);
+}
+.menu {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 30px;
+  width: 30px;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  display: none;
+  z-index: 2;
+}
+.newParentName {
+  flex-direction: row;
+  align-items: flex-end;
+}
+.enterEmail,
+.getaQuote,
+.newParentName {
+  display: flex;
+  justify-content: flex-start;
+}
+.getaQuote {
+  flex-direction: row;
+  align-items: center;
+  gap: 0 9px;
+}
+.enterEmail {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-mini) var(--padding-13xl) 0 0;
+}
+.contactUs {
+  position: relative;
+  font-size: var(--font-size);
+  line-height: 120%;
+  font-family: var(--font);
+  color: var(--text-heading-color);
+  text-align: left;
+}
+.framebookNowReadMore {
+  cursor: pointer;
+  border: 1px solid var(--gray-color);
+  padding: var(--padding-2xl) var(--padding-11xl) var(--padding-xl)
+    var(--padding-15xl);
+  background-color: var(--white);
+  border-radius: var(--br-21xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  z-index: 1;
+}
+.framebookNowReadMore:hover {
+  background-color: var(--color-gainsboro);
+  border: 1px solid var(--color-gray-100);
+  box-sizing: border-box;
+}
+.officesFrame,
+.projectsFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.officesFrame {
+  width: 980px;
+  justify-content: flex-start;
+  gap: 0 24px;
+}
+.projectsFrame {
+  align-self: stretch;
+  border-radius: var(--br-51xl);
+  background-color: var(--gray-2);
+  justify-content: space-between;
+  padding: var(--padding-smi) var(--padding-5xl) var(--padding-mini)
+    var(--padding-21xl);
+  box-sizing: border-box;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size);
+  color: var(--text-heading-color);
+  font-family: var(--font);
+}
+@media screen and (max-width: 1200px) {
+  .frameglobalPresence {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .buildIcon,
+  .frameglobalPresence {
+    display: none;
+  }
+  .menu {
+    display: flex;
+  }
+}

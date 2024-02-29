@@ -1,0 +1,349 @@
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-right {
+  0% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.weAreA {
+  width: 785px;
+  display: inline-block;
+  max-width: 100%;
+}
+.theTransferOf,
+.weAreA {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 600;
+  font-family: inherit;
+}
+.loremIpsumDolor {
+  width: 474px;
+  position: relative;
+  font-size: var(--font-size);
+  line-height: 24px;
+  display: inline-block;
+  max-width: 100%;
+}
+.feedbackFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px 0;
+  max-width: 100%;
+}
+.bookNow {
+  position: relative;
+  font-size: var(--font-size);
+  line-height: 120%;
+  font-family: var(--font);
+  color: var(--white);
+  text-align: left;
+}
+.bookNowFrame {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xl) var(--padding-12xl) var(--padding-2xl)
+    var(--padding-16xl);
+  background-color: var(--text-heading-color);
+  border-radius: var(--br-21xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.bookNowFrame:hover {
+  background-color: var(--color-dimgray);
+}
+.readMore {
+  position: relative;
+  font-size: var(--font-size);
+  line-height: 120%;
+  font-family: var(--font);
+  color: var(--text-heading-color);
+  text-align: left;
+}
+.bookNowFrame1 {
+  cursor: pointer;
+  border: 1px solid var(--gray-color);
+  padding: var(--padding-xl) var(--padding-11xl) var(--padding-2xl)
+    var(--padding-15xl);
+  background-color: var(--white);
+  border-radius: var(--br-21xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.bookNowFrame1:hover {
+  background-color: var(--color-gainsboro);
+  border: 1px solid var(--color-gray-100);
+  box-sizing: border-box;
+}
+.bookNowFrameParent,
+.starsRating {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 24px;
+  max-width: 100%;
+}
+.starsRating {
+  flex-direction: column;
+  gap: 45px 0;
+}
+.customers,
+.separatorRectangle {
+  position: relative;
+  line-height: 120%;
+}
+.separatorRectangle {
+  font-weight: 600;
+}
+.customers {
+  font-size: var(--font-size);
+}
+.officesFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs) 0 0;
+  gap: 5px 0;
+}
+.div {
+  font-weight: 600;
+}
+.div,
+.offices {
+  position: relative;
+  line-height: 120%;
+}
+.officesFrame1,
+.officesWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.officesWrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-4xs);
+  font-size: var(--font-size);
+}
+.officesFrame1 {
+  flex-direction: column;
+  gap: 5px 0;
+}
+.div1,
+.students {
+  position: relative;
+  line-height: 120%;
+}
+.div1 {
+  font-weight: 600;
+}
+.students {
+  font-size: var(--font-size);
+}
+.officesFrame2,
+.subheadingtext {
+  display: flex;
+  align-items: flex-start;
+}
+.officesFrame2 {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 5px 0;
+}
+.subheadingtext {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font1-size);
+}
+.transferFrame,
+.transferrealestateframe {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.transferFrame {
+  align-self: stretch;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: 80px 0;
+  opacity: 0;
+}
+.transferFrame.animate {
+  animation: 1s ease 0s 1 normal forwards slide-in-left;
+}
+.transferrealestateframe {
+  width: 520px;
+  padding: 0 0 var(--padding-11xl);
+  min-width: 520px;
+}
+.newsletterSubscriptionGroup,
+.subscribeButton {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+  width: 100%;
+  height: 100%;
+}
+.newsletterSubscriptionGroup {
+  object-fit: cover;
+}
+.subscribeButton {
+  background: linear-gradient(
+    115.89deg,
+    rgba(193, 222, 232, 0.7) 9.15%,
+    rgba(255, 255, 255, 0) 52.17%,
+    rgba(251, 217, 185, 0.7) 98.84%
+  );
+  opacity: 0;
+  z-index: 1;
+}
+.subscribeButton.animate {
+  animation: 1s ease 0s 1 normal forwards slide-in-right;
+}
+.newsletterSubscriptionGroupParent {
+  height: 577px;
+  flex: 1;
+  position: relative;
+  min-width: 357px;
+  max-width: 100%;
+}
+.subheadertext {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0 175px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font2-size);
+}
+.contactFrame,
+.officesframe {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.officesframe {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: 45px 0;
+}
+.contactFrame {
+  width: 1247px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-11xs) var(--padding-12xl) 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font3-size);
+  color: var(--color-black);
+  font-family: var(--font);
+}
+@media screen and (max-width: 1200px) {
+  .subheadertext {
+    gap: 0 175px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .weAreA {
+    font-size: var(--font-size-21xl);
+    line-height: 48px;
+  }
+  .theTransferOf {
+    font-size: var(--font-size-11xl);
+    line-height: 36px;
+  }
+  .div,
+  .div1,
+  .separatorRectangle {
+    font-size: var(--font-size-35xl);
+    line-height: 64px;
+  }
+  .transferrealestateframe {
+    flex: 1;
+  }
+  .subheadertext {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .starsRating {
+    gap: 45px 0;
+  }
+  .transferFrame {
+    gap: 80px 0;
+  }
+  .transferrealestateframe {
+    min-width: 100%;
+  }
+  .subheadertext {
+    gap: 0 175px;
+  }
+  .officesframe {
+    gap: 45px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .weAreA {
+    font-size: var(--font-size-11xl);
+    line-height: 36px;
+  }
+  .theTransferOf {
+    font-size: var(--font-size-4xl);
+    line-height: 27px;
+  }
+  .bookNowFrameParent {
+    flex-wrap: wrap;
+  }
+  .div,
+  .div1,
+  .separatorRectangle {
+    font-size: var(--font-size-21xl);
+    line-height: 48px;
+  }
+  .subheadingtext {
+    flex-wrap: wrap;
+  }
+  .transferFrame {
+    gap: 80px 0;
+  }
+  .newsletterSubscriptionGroupParent {
+    min-width: 100%;
+  }
+  .subheadertext {
+    gap: 0 175px;
+  }
+}

@@ -1,0 +1,79 @@
+.everythingShouldBe,
+.threeStepsThree {
+  position: relative;
+  line-height: 120%;
+}
+.everythingShouldBe {
+  margin: 0;
+  font-size: var(--font3-size);
+  font-weight: 600;
+  font-family: inherit;
+}
+.threeStepProcess {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px 0;
+  max-width: 100%;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-9xl);
+}
+.enterEmailText,
+.manageYourPropertyText {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.enterEmailText {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: 45px 0;
+}
+.manageYourPropertyText {
+  width: 1349px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-3xl) var(--padding-5xl) var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size);
+  color: var(--color-black);
+  font-family: var(--font);
+}
+@media screen and (max-width: 1200px) {
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .everythingShouldBe {
+    font-size: var(--font-size-21xl);
+    line-height: 48px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .frameParent {
+    align-items: center;
+  }
+}
+@media screen and (max-width: 750px) {
+  .enterEmailText {
+    gap: 45px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .everythingShouldBe {
+    font-size: var(--font-size-11xl);
+    line-height: 36px;
+  }
+}

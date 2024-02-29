@@ -1,0 +1,43 @@
+.vuesaxlinearmessagesIcon {
+  width: 75px;
+  height: 75px;
+  position: relative;
+}
+.answerQuestions {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 600;
+  font-family: inherit;
+}
+.loremIpsumDolor {
+  width: 329px;
+  position: relative;
+  font-size: var(--font-size);
+  line-height: 24px;
+  display: inline-block;
+}
+.vuesaxlinearmessagesParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-9xl);
+  color: var(--color-black);
+  font-family: var(--font);
+}
+@media screen and (max-width: 768px) {
+  .vuesaxlinearmessagesParent {
+    align-content: center;
+  }
+}
+@media screen and (max-width: 450px) {
+  .answerQuestions {
+    font-size: var(--font-size-3xl);
+    line-height: 27px;
+  }
+}
